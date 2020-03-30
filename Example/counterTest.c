@@ -29,10 +29,10 @@ static void testSetValue(void)
 
 static void testInc(void)
 {
-	Counter_inc(counterRef);	
+	Counter_inc(counterRef);
 	TEST_ASSERT_EQUAL_INT(1, Counter_value(counterRef));
 
-	Counter_inc(counterRef);	
+	Counter_inc(counterRef);
 	TEST_ASSERT_EQUAL_INT(2, Counter_value(counterRef));
 }
 
